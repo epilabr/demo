@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example Build') {
             steps {
-                println 'Hello'
+                println 'Hello OpenLegacy'
             }
         }
     }
