@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call(["mvn", "install"])
+subprocess.call(["mvn", "clean", "install"])
