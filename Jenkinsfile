@@ -5,7 +5,7 @@ pipeline {
             steps {
                 println 'Hello OpenLegacy'
                 withPythonEnv('/usr/bin/python3.6') {
-                    sh 'python script.py'
+                    sh 'python compile_script.py'
                 }    
             }
         }
