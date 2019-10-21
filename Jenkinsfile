@@ -11,6 +11,7 @@ pipeline {
                     sh 'python remove_running_container_script.py'
                     sh 'python run_new_container_script.py'
                 }    
+                println 'Bye'
             }
         }
     }
