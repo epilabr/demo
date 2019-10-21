@@ -15,10 +15,10 @@ public class DemoApplication {
 	}
 
 	@RestController
-	@RequestMapping("/api/ech")
+	@RequestMapping("/api/echo")
 	public static class RandomController {
 
-		@GetMapping("/{ech}")
+		@GetMapping("/{echo}")
 		public Echo getRandomOutput(@PathVariable("echo") String echo) {
 			return new Echo(echo);
 		}
