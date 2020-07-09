@@ -10,7 +10,7 @@ pipeline {
                     sh 'python build_image_script.py'
                     sh 'python remove_running_container_script.py'
                     sh 'python run_new_container_script.py'
-                    //this is a comment
+                    /////this is a comment
                 }    
                 println 'Bye'
             }
