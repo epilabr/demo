@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example Build') {
             steps {
-                println 'Hello OpenLegacy'
+                println 'Hello!!!'
                 withPythonEnv('/usr/bin/python3.6') {
                     sh 'python compile_script.py'
                     sh 'python package_script.py'
